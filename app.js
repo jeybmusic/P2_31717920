@@ -29,7 +29,7 @@ const io = new Server(server);
 const transporter = nodemailer.createTransport({
   service:'Gmail',
    auth:{
-    user:'valeriakeydimar17@gmail.com',
+    user:'soyborrego14gmail.com',
     pass:PASSWORDAPP
   }
 });
@@ -73,7 +73,7 @@ app.get('/ubicacion', async (req, res) => {
   }
   const config = {
   headers: {
-    'Referer': 'https://curriculum-upeh.onrender.com', // Establece el Referer personalizado
+    'Referer': 'https://p2-31717920.onrender.com', // Establece el Referer personalizado
     'User-Agent': 'GerardoCurriculum' // Establece el User-Agent personalizado
   },
   timeout: 60000 // 60 segundos
