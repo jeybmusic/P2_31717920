@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #BFB78F;
+}
+
+h1,h3{
+    font-size:max(2rem) min(1rem);
+}
+
+#bod{
+    max-width: 950px;
+    height: 100%;
+    background-color: #011F26;
+    padding: 3%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10%;
+    gap: 20%;
+    border-bottom: solid 2px black;
+}
+
+img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.redesimg{
+
+    padding-left: 7%;
+    height: 30px;
+}
+
+a{
+    color: black;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    padding: 0% 5%;
+}
+
+h1,h3{
+    color: #F2A71B;
+}
+
+.fondo{
+    text-align: center;
+    width: 100%;
+    background-color:#F2A71B;
+}
+
+#left{
+    width: 40%;
+}
+
+#right{
+
+    width: 60%;
+
+}
+
+.formularioo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #597480;
+    height: fit-content;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    
+}
+
+.inp{
+    width: 80%;
+}
+
+input{
+    width: 100%;
+    background-color: #011F26;
+    color: antiquewhite;
+    transition: 1s;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid gold;
+}
+
+button{
+    
+    background-color: black;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+button:hover{
+
+    color: white;
+    background-color: black;
+    border: 2px solid gold;
+    transition: .5s;
+
+}
+
+.block{
+    box-sizing: border-box;
+    width: 100%;
+    background-color:#597480;
+    padding: 1% 10%  2% 2%;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
